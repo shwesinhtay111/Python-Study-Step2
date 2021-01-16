@@ -44,7 +44,7 @@ def askint():
     finally:
         print('Finally, You excuted!')
 askint()
-def askint():
+def askints():
     while True:
         try:
             val = int(input("Please enter an integer: "))
@@ -57,4 +57,4 @@ def askint():
         finally:
             print("Finally, I executed!")
         print(val)
-askint()
+askints()
