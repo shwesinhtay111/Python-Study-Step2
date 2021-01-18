@@ -22,4 +22,11 @@ Error Handling
     finally:
        This code block would always be executed.
 
-
+Build-In Functions
+==================
+    - Map
+    ----
+        map(function, iterable, ...)
+        - map() returns an iterator - that is, map() returns a special object that yields one result at a time as needed
+        - map() with multiple iterables, map() can accept more than one iterable. 
+        - The iterables should be the same length - in the event that they are not, map() will stop as soon as the shortest iterable is exhausted.
