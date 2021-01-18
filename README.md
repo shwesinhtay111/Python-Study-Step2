@@ -39,5 +39,10 @@ Build-In Functions
             In the next step the function will be applied on the previous result and the third element of the list, i.e. function(function(s1, s2),s3)
             The list looks like this now: [ function(function(s1, s2),s3), ... , sn ]
             It continues like this until just one element is left and return this element as the result of reduce()
+     Filter
+     -----
+         filter(function, list)
+         -return a Boolean value (either True or False)
+       
     
         
