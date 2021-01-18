@@ -43,6 +43,12 @@ Build-In Functions
      -----
          filter(function, list)
          -return a Boolean value (either True or False)
+         
+     Zip
+     -----
+        -zip() makes an iterator that aggregates elements from each of the iterables.
+        -Returns an iterator of tuples
+        -zip() should only be used with unequal length inputs when you don’t care about trailing, unmatched values from the longer iterables
        
     
         
