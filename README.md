@@ -54,6 +54,10 @@ Build-In Functions
         -Enumerate allows you to keep a count as you iterate through an object
         -enumerate() becomes particularly useful when you have a case where you need to have some sort of tracker
         -enumerate() takes an optional "start" argument to override the default value of zero
+    All and Any
+    ----------
+        -all() will return True if all elements in an iterable are True
+        -any() will return True if any of the elements in the iterable are True
        
     
         
