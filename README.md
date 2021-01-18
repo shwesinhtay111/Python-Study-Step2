@@ -58,6 +58,10 @@ Build-In Functions
     ----------
         -all() will return True if all elements in an iterable are True
         -any() will return True if any of the elements in the iterable are True
+    Complex
+    -------
+        -complex() returns a complex number with the value real + imag*1j or converts a string or number to a complex number.
+        
        
     
         
